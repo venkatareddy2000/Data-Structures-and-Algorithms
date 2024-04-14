@@ -1,0 +1,25 @@
+import java.util.*;
+
+class Solution {
+	public List<List<Integer>> threeSum(int[] nums) {
+		List<List<Integer>> outerList = new ArrayList<List<Integer>>();
+		for (int i = 0; i < nums.length - 2; i++) {
+			if (nums[i] != nums[i + 1] && nums[i] != nums[i + 2] && nums[i + 1] != nums[i + 2]
+					&& nums[i] + nums[i + 1] + nums[i + 2] == 0) {
+				List<Integer> innerList = new ArrayList<Integer>();
+				innerList.add(i);
+				innerList.add(i + 1);
+				innerList.add(i + 2);
+				outerList.add(innerList);
+			}
+		}
+		return outerList;
+	}
+
+	public static void main(String[] args) {
+		Solution solution = new Solution();
+		int[] nums = { 4, 1, 2 };
+		List<List<Integer>> result = solution.threeSum(nums);
+		System.out.println(Arrays.toString(result));
+	}
+}

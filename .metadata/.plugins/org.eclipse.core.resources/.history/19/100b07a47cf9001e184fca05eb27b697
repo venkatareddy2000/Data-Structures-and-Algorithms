@@ -1,0 +1,26 @@
+package com.venky.practice;
+
+public class SinglyLinkedList {
+	private Node head;
+
+	private static class Node {
+		private int data;
+		private Node next;
+
+		public Node(int data) {
+			this.data = data;
+			this.next = null;
+		}
+	}
+
+	private void insertAtBegining(int i) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public static void main(String[] args) {
+		SinglyLinkedList singlyLinkedList = new SinglyLinkedList();
+		singlyLinkedList.insertAtBegining(10);
+	}
+
+}

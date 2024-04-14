@@ -1,0 +1,9 @@
+package com.dsa.searching.algorithm;
+
+public class BinarySearchIterative {
+
+	public static void main(String[] args) {
+		BinarySearchIterative binarySearchIterative = new BinarySearchIterative();
+	}
+
+}

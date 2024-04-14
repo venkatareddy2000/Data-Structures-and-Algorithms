@@ -1,0 +1,9 @@
+package com.venky.practice;
+
+public class CircularLinkedList {
+
+	public static void main(String[] args) {
+		CircularLinkedList circularLinkedList = new CircularLinkedList();
+	}
+
+}

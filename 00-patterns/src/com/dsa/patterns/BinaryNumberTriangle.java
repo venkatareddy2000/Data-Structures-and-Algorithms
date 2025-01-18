@@ -8,7 +8,7 @@ public class BinaryNumberTriangle {
 		int size;
 		int start = 1;
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter the size of the right angled triangle : ");
+		System.out.println("Enter the size of the binary number triangle : ");
 		size = scanner.nextInt();
 		for (int i = 0; i < size; i++) {
 			if (i % 2 == 0) {

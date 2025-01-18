@@ -7,7 +7,7 @@ public class IncreasingLetterTriangle {
 	public static void main(String[] args) {
 		int size;
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter the size of the right angled triangle : ");
+		System.out.println("Enter the size of the increasing letter triangle : ");
 		size = scanner.nextInt();
 		for (int i = 0; i < size; i++) {
 			int asciiValue = 65;

@@ -7,7 +7,7 @@ public class IncreasingNumberTriangle {
 	public static void main(String[] args) {
 		int size;
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter the size of the right angled triangle : ");
+		System.out.println("Enter the size of the increasing number triangle : ");
 		size = scanner.nextInt();
 		int count = 1;
 		for (int i = 1; i <= size; i++) {

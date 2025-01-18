@@ -7,7 +7,7 @@ public class AlphaHill {
 	public static void main(String[] args) {
 		int size;
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter the size of the right angled triangle : ");
+		System.out.println("Enter the size of the alpha hill  : ");
 		size = scanner.nextInt();
 		for (int i = 0; i < size; i++) {
 			for (int j = 0; j < size - i - 1; j++) {
